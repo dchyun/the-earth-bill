@@ -1,0 +1,61 @@
+/* CORE */
+
+/* Typography */
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  color: #1a1d1e;
+}
+h1, .h1 {
+  font-size: 1.802em;
+  font-weight: 600;
+}
+h2, .h2 {
+  font-size: 1.602em;
+  font-weight: 600;
+}
+h3, .h3 {
+  font-size: 1.266em;
+  font-weight: 600;
+}
+h4, .h4 {
+  font-size: 1.125em;
+  font-weight: 600;
+}
+.underline {
+  border-bottom: 3px solid #1E9137;
+}
+.highlight {
+  color: #1E9137;
+}
+.warning {
+  color: #ff0000;
+}
+
+/* Links and Buttons */
+a, a:visited, a:hover, a:not([href]) {
+  color: #1E9137;
+}
+a:hover {
+  text-decoration: underline #1E9137;
+}
+
+.no-hover:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-pill {
+  border-radius: 20px;
+  background-color: #000000;
+  width: 100%;
+  color: #ffffff;
+}
+
+.btn-pill-green {
+  border-radius: 20px;
+  background-color: #1E9137;
+  width: 100%;
+  color: #ffffff;
+}
