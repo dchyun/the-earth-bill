@@ -1,0 +1,23 @@
+.collapse-item .collapse-panel {
+  display: block;
+}
+
+.collapse-item .collapse-panel.collapsed {
+  display: none;
+}
+
+.collapse-item .collapse-btn,
+.collapse-item .collapse-btn:hover {
+  display: inline-block;
+  padding: 0;
+  background-color: transparent;
+  font-weight: 600;
+  color: #1b3880;
+  text-decoration: underline;
+  border: none;
+}
+
+.collapse-item .collapse-btn.link-light,
+.collapse-item .collapse-btn.link-light:hover {
+  color: #c2d3ff !important;
+}

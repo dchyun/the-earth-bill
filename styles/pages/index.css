@@ -1,0 +1,72 @@
+/* Organization Names Grid */
+.org-name-grid {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.org-name {
+  display: block;
+}
+
+.org-name:nth-of-type(12n) {
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .org-name-grid {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  .org-name:nth-of-type(8n) {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .org-name-grid {
+    grid-template-columns: repeat(3, auto);
+  }
+
+  .org-name {
+    margin-bottom: 3rem;
+  }
+}
+
+/* Organization Logos Grid */
+.org-img-grid {
+  display: grid;
+  grid-gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.org-img-grid--sq {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.org-img-grid--script {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.org-img-grid .org-img-grid__img {
+  width: 100%;
+}
+
+/* Citizen Table */
+.citizen-table-wrapper {
+  position: relative;
+  overflow: scroll;
+}
+
+.citizen-table-wrapper::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 18px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: rgba(0,0,0,.1) 0px -9px 8px -2px;
+}

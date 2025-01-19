@@ -1,0 +1,46 @@
+.btn-pill,
+.btn-pill-light {
+  border-radius: 10rem;
+  padding: 2rem 6.4rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.15s ease-in-out;
+}
+
+.btn-pill:hover,
+.btn-pill:focus,
+.btn-pill-light:hover,
+.btn-pill-light:focus {
+  outline: auto;
+  text-decoration: none;
+}
+
+.btn-pill {
+  background-color: #1b3880;
+  color: #fff !important;
+}
+
+.btn-pill:hover,
+.btn-pill:focus {
+  background-color: #25469b;
+  color: #fff !important;
+}
+
+.btn-pill-light {
+  background-color: #f9fbfc;
+  color: #25469b !important;
+}
+
+.btn-pill-light:hover,
+.btn-pill-light:focus {
+  background-color: #f9fbfc;
+  color: #25469b !important;
+}
+
+.btn-link {
+  font-weight: 600;
+  color: #1b3880;
+  text-decoration: underline;
+}

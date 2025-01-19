@@ -1,0 +1,28 @@
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.bg-navy {
+  background-color: #2a3b7d;
+}
+
+.bg-navy-light {
+  background-color: #eaf0ff;
+}
+
+.bg-gray-light {
+  background-color: #999;
+}
+
+/* Borders */
+.border,
+.border-top,
+.border-right,
+.border-bottom,
+.border-left {
+  border-color: #000!important;
+}

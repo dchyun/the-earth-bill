@@ -1,0 +1,15 @@
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10rem;
+}
+
+.image-grid-item img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .image-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

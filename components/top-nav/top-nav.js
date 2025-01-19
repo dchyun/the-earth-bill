@@ -12,9 +12,9 @@ hamburgerBtn.addEventListener('click', function() {
     menu.classList.add('open')
   }
 })
-var menuItems = document.querySelectorAll('.menu-item');
+var menuItems = document.querySelectorAll('.header__nav-item');
 for (i=0; i<menuItems.length; i++) {
   if (menuItems[i].getAttribute('href') == window.location.href) {
-    menuItems[i].setAttribute('style', 'text-decoration: underline;')
+    menuItems[i].classList.add('active')
   }
 }

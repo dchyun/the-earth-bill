@@ -1,0 +1,12 @@
+.section-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.section-img-accent {
+  height: calc(100% - 25px);
+  width: calc(100% - 25px);
+  object-fit: cover;
+  box-shadow: 25px 25px #2a3b7d;
+}

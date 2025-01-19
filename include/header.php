@@ -11,7 +11,7 @@
   <meta name="The Earth Bill">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" href="./assets/logo.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="./assets/logo-blue.jpg" type="image/png" sizes="16x16">
 
   <title>The Earth Bill</title>
 
@@ -24,7 +24,8 @@
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
 
   <!-- Fonts -->
-
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
   <!-- General App Styles -->
   <link rel="stylesheet" media="all" type="text/css" href="./styles/app.css">
@@ -42,6 +43,3 @@
 </head>
 <body>
   <?php include './components/top-nav/top-nav.php'; ?>
-  <div class="container">
-  </div>
-</body>

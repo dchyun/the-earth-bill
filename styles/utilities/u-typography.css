@@ -1,0 +1,15 @@
+.underline {
+  border-bottom: 3px solid #2a3b7d;
+}
+
+.highlight {
+  color: #2a3b7d;
+}
+
+.font-family-nunito {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.font-family-roboto {
+  font-family: 'Roboto', sans-serif;
+}
